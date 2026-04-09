@@ -24,4 +24,4 @@ class StockViewSet(ModelViewSet):
 
 @api_view(['GET'])
 def sample_view(request):
-    return Response({'message': 'Я фанат Спартака!'})
+    return Response({'message': 'Я люблю жену и Владьку!'})
